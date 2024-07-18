@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import toast from "react-hot-toast";
 
-const VITE_BACKEND_HOST_URL = 'http://localhost:4800';
+const VITE_BACKEND_HOST_URL = `$(window.location.origin)`;
 
 const ProductCard = () => {
   const [products, setProducts] = useState([]);
