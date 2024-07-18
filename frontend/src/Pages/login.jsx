@@ -21,7 +21,7 @@ function Login() {
             password
         };
         try {
-            const response = await fetch(`$(window.location.origin)/api/login`, {
+            const response = await fetch(`http://localhost:4800/api/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
