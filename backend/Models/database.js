@@ -7,10 +7,7 @@ const dbName = 'Mydb';
 
 const mongoURI = `mongodb+srv://${username}:${password}@cluster0.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
-mongoose.connect(mongoURI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mongoose.connect(mongoURI)
 .then(() => {
     console.log('MongoDB connected');
 })
