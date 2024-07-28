@@ -5,7 +5,7 @@ const username = 'GopalDixit';
 const password = 'GopalMongodb';
 const dbName = 'Mydb';
 
-const mongoURI = `mongodb+srv://${username}:${password}@cluster0.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+const mongoURI = `mongodb+srv://${username}:${password}@cluster0.4iwukso.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
 mongoose.connect(mongoURI)
 .then(() => {
