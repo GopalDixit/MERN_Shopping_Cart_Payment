@@ -1,11 +1,8 @@
 const mongoose = require('mongoose');
 
 // Replace these with your actual username, password, and database name
-const username = 'GopalDixit';
-const password = 'GopalMongodb';
-const dbName = 'Mydb';
 
-const mongoURI = `mongodb+srv://${username}:${password}@cluster0.4iwukso.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+const mongoURI = `mongodb+srv://gopaldixit9450:N4tEEMO3UwssJiYP@admincluster.rgu9w.mongodb.net/?retryWrites=true&w=majority&appName=admincluster`;
 
 mongoose.connect(mongoURI)
 .then(() => {
