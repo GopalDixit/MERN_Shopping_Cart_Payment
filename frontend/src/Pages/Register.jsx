@@ -11,7 +11,7 @@ function Register() {
     const data = {
       name, email, password
     }
-    const response = await fetch(`http://localhost:4800/api/register`, {
+    const response = await fetch(`https://mern-shopping-cart-payment-6.onrender.com/api/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
