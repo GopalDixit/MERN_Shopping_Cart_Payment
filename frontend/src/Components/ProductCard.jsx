@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import toast from "react-hot-toast";
 
-const VITE_BACKEND_HOST_URL = `https://mern-shopping-cart-payment-6.onrender.com`;
+const VITE_BACKEND_HOST_URL = `https://mern-shopping-cart-payment.onrender.com`;
 
 const ProductCard = () => {
   const [products, setProducts] = useState([]);
