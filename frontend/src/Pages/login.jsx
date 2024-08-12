@@ -21,7 +21,7 @@ function Login() {
             password
         };
         try {
-            const response = await fetch(`https://mern-shopping-cart-payment-6.onrender.com/api/login`, {
+            const response = await fetch(`https://mern-shopping-cart-payment.onrender.com/api/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
