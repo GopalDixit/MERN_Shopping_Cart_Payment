@@ -52,19 +52,20 @@ function Login() {
             <div>
                 <form onSubmit={handleLogin}>
                     <input
-                        id='input'
-                        type='email'
-                        value={email}
-                        placeholder='E-mail'
-                        onChange={(e) => setEmail(e.target.value)}
-                    /><br />
-                    <input
-                        id='input'
-                        type='password'
-                        value={password}
-                        placeholder='Password'
-                        onChange={(e) => setPassword(e.target.value)}
-                    /><br />
+    id='email-input'
+    type='email'
+    value={email}
+    placeholder='E-mail'
+    onChange={(e) => setEmail(e.target.value)}
+/><br />
+<input
+    id='password-input'
+    type='password'
+    value={password}
+    placeholder='Password'
+    onChange={(e) => setPassword(e.target.value)}
+/><br />
+
                     <input
                         type="submit"
                         value="Login"
