@@ -10,6 +10,24 @@
   margin-top: 15px;
   height: 20px;
 }
+#name-input{
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  height: 20px;
+}
+#password-input{
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  height: 20px;
+}
+#email-input{
+  background-color: white;
+  color: black;
+  margin-top: 15px;
+  height: 20px;
+}
 .home{
   background-color: red;
 }
