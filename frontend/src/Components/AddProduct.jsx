@@ -16,7 +16,7 @@ const AddProduct = ({ onClose }) => {
         };
 
         try {
-            const response = await axios.post(`http://localhost:4800/api/addproduct/add`, productData);
+            const response = await axios.post(`https://mern-shopping-cart-payment-6.onrender.com/api/addproduct/add`, productData);
             console.log(response.data);
             onClose();
         } catch (error) {
