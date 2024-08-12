@@ -111,7 +111,7 @@ const ProductCard = () => {
 
   return (
     <div>
-    <button onClick={handleNavigate} className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"style={{marginBottom:18,marginRight:400}}>Home</button>
+
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
       {products.map((product) => (
         <Card key={product._id} className="w-full">
